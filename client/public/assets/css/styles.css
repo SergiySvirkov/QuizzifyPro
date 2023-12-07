@@ -1,0 +1,24 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a global font family */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Add your own global styles below */
+/* Example: */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
